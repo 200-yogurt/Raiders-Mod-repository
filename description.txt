@@ -1,15 +1,29 @@
+Raiders Mod is a W.I.P mod that tries to make the players have fun! it has a lot of planned things for the future!
+
 check the discord server here
 https://discord.com/invite/XN3S4UV
+
+0.0.4
+ 1 new miniboss
+ 1 new enemy
+ removed some weapons
+ 1 mount added
+ 4 resprites
+ 3 weapons added
 
 0.0.3
  1 new ammo
  2 re-sprites
  4 enemies
+
 0.0.2
  1 armour
  1 enemy
  3 weapons
+
 0.0.1.2
  buffs & nerfs
+
 0.0.1
  3 weapons added
+
