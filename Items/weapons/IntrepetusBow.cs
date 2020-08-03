@@ -1,6 +1,6 @@
 using Terraria.ID;
 using Terraria.ModLoader;
-
+using Terraria;
 namespace RaidersMod.Items.weapons
 {
 	public class IntrepetusBow : ModItem
@@ -17,16 +17,16 @@ namespace RaidersMod.Items.weapons
 			item.width = 45;
 			item.height = 45;
 			item.useTime = 15;
-			item.useAnimation = 20;
+			item.useAnimation = 15;
 			item.useStyle = 5;
 			item.knockBack = 4;
-			item.value = 000050;
-			item.rare = 8;
+			item.value = Item.buyPrice(0,3,50,0);
+			item.rare = 5;
 			item.UseSound = SoundID.Item5;
 			item.autoReuse = true;
 			item.useAmmo = AmmoID.Arrow;
 			item.shoot = 2;
-			 item.shootSpeed = 15f;
+			item.shootSpeed = 15f;
 		}
 
 		public override void AddRecipes()
