@@ -8,25 +8,26 @@ namespace RaidersMod.Items.weapons
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Frosty Breath");
-			Tooltip.SetDefault("a cold bow that can be useful for fights");
+			Tooltip.SetDefault("A cold bow that can be useful for fights");
 		}
 		public override void SetDefaults()
 		{
 			item.damage = 60;
 			item.ranged = true;
-			item.width = 50;
-			item.height = 50;
-			item.useTime = 15;
+			item.width = 26;
+			item.height = 26;
+			item.useTime = 20;
 			item.useAnimation = 20;
 			item.useStyle = 5;
 			item.knockBack = 2;
 			item.value = 000035;
-			item.rare = 7;
+			item.rare = 4;
 			item.UseSound = SoundID.Item5;
 			item.autoReuse = true;
 			item.useAmmo = AmmoID.Arrow;
-			item.shoot = 2;
-			 item.shootSpeed = 10f;
+			item.shoot = ProjectileID.FrostArrow;
+			item.noMelee = true;
+			item.shootSpeed = 10f;
 		}
 
 		public override void AddRecipes()
