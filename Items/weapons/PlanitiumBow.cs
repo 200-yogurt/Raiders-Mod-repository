@@ -26,7 +26,8 @@ namespace RaidersMod.Items.weapons
 			item.autoReuse = true;
 			item.useAmmo = AmmoID.Arrow;
 			item.shoot = 1;
-			 item.shootSpeed = 10f;
+			item.shootSpeed = 10f;
+			item.noMelee = true;
 		}
     }
 }        

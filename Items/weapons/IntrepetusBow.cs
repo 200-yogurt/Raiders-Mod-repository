@@ -21,6 +21,7 @@ namespace RaidersMod.Items.weapons
 			item.useStyle = 5;
 			item.knockBack = 4;
 			item.value = Item.buyPrice(0,3,50,0);
+			item.noMelee = true;
 			item.rare = 5;
 			item.UseSound = SoundID.Item5;
 			item.autoReuse = true;
